@@ -165,7 +165,8 @@ H1 {
     grid-column: 2;
     grid-row: 2;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     background-color: #D9A50B;
     padding: 35px;
 }
@@ -173,7 +174,38 @@ H1 {
     max-width: 120px;
     margin: 0 auto;
 }
+#contactForm {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-left: 10px;
+}
 
+#message {
+    width: 600px;
+    height: 250px;
+    border: auto;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    padding: 35px;
+}
+#namebox {
+    width: 300px;
+    height: 40px;
+    border: auto;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#contactButton {
+    width: 175px;
+    height: 75px;
+    margin-left: 20px;
+    font-size: 24px;
+}
 #pinkbox {
     grid-column: 2;
     grid-row: 1/3;
